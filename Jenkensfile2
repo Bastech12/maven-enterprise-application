@@ -3,7 +3,7 @@ node(""){
 def MHD = tool name: "Maven3.8.4"
 
 stage ("1.gitclone"){
-	git "https://github.com/Bastech12/maven-web-app.git"
+	git "https://github.com/Bastech12/maven-enterprise-application.git"
 }
 
 stage ("2.build"){
